@@ -112,7 +112,8 @@ background: #86f3d2 url(img/header_illo.png) 50% 0 no-repeat;
 
 #fancy {
 font-family: 'Pacifico',serif;
-font-size: 32px;
+font-size: 36px;
+letter-spacing: 2px;
 color: #12818e;
 }
 
@@ -229,7 +230,7 @@ background: #12818e;
 	padding: 10px 0px 10px 20px;
 	}
 	
-.top {
+#schedule .top {
 font-family: 'BebasNeue';
 font-size: 35px;
 padding: 15px 30px 15px 20px;
@@ -241,7 +242,7 @@ text-decoration: none;
 background: url(img/uparrow.png) 70px 20px no-repeat;
 }
 
-.top:hover {
+#schedule .top:hover {
 color: #0b4e56;
 }
 
@@ -348,9 +349,29 @@ background: #13c1d6;
 
 #map h3 {
 	float: left;
-	color: #0d8694;
+	color: #fff;
 	}
-	
+
+#map .top {
+font-family: 'BebasNeue';
+font-size: 35px;
+padding: 15px 30px 15px 20px;
+text-decoration: none;
+letter-spacing: 1px;
+float: right;
+color: #0c5962;
+text-decoration: none;
+background: url(img/uparrow.png) 70px 20px no-repeat;
+}
+
+#map .top:hover {
+color: #0b4e56;
+}
+
+#mapgraphic img {
+padding-bottom: 20px;
+}
+
 #footer {
 background: #4d4d4d;
 }
