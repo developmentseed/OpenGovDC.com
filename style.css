@@ -1,11 +1,13 @@
 @font-face {
   font-family:'Pacifico';
-  src: url('fonts/Pacifico.ttf') format('truetype');
+  src: url('fonts/Pacifico-webfont.eot');
+    src: url('fonts/Pacifico-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/Pacifico-webfont.ttf') format('truetype');
   }
 
 @font-face {
   font-family:'BebasNeue';
-  src: url('fonts/BebasNeue.otf') format('opentype');
+  src: url('fonts/BebasNeue-webfont.eot');
+  src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/BebasNeue-webfont.ttf') format('truetype');
   }
 
 body {
@@ -52,11 +54,10 @@ background: #12818e;
 }
 
 h3 {
-font-family: 'BebasNeue', sans-serif;
-font-size: 35px;
+font: normal 35px/40px 'BebasNeue',sans-serif;
 letter-spacing: 1px;
 color: #13c1d6;
-padding: 15px 0px 15px 20px;
+padding: 15px 0px 10px 20px;
 }
 
 h4 {
@@ -73,40 +74,35 @@ font-size: 18px;
 padding: 0 0 5px 20px;
 }
 
+.header {
+position:relative;
+height:440px;
+}
+
 #ticket {
-position: relative 0 0;
-float: right;
-width: 260px;
-height: 95px;
-text-decoration: none;
+display:block;
+position:absolute;
+right:0px;
+top:0px;
+text-decoration:none;
+padding: 30px 80px 25px 60px;
+font:normal 35px/40px 'BebasNeue',sans-serif;
+letter-spacing: 1px;
+color: #fff;
+background: #f84a4a url(img/buyarrow.png) 210px 37px no-repeat;
 }
 
-	#ticket p {
-	padding: 40px 0px 35px 60px;
-	font-family: 'BebasNeue', sans-serif;
-	letter-spacing: 1px;
-	font-size: 35px;
-	color: #fff;
-	background: #f84a4a url(img/buyarrow.png) 210px 37px no-repeat;
-	}
-
-	#ticket :hover {
+	#ticket:hover {
 	background: #db4141 url(img/buyarrow.png) 210px 37px no-repeat;
-}
+	}
 
 #intro {
 background: #86f3d2 url(img/header_illo.png) 50% 0 no-repeat;
 }
 
 	#intro h3 {
-	color: #ea4646;
-	}
-
-	#intro #about h3 {
-	color: #117c8a;
-	}
-
-	#intro #attend h3 {
+	clear:both;
+	background: url(img/transparentbg.png) repeat;
 	color: #117c8a;
 	}
 
@@ -120,6 +116,9 @@ color: #12818e;
 #headerinfo {
 float: left;
 padding-bottom: 20px;
+height:200px;
+width:215px;
+margin:0px;
 }
 
 #headerinfo p {
@@ -136,21 +135,19 @@ padding: 10px 0 0 20px;
 .smalltext {
 text-transform: uppercase;
 font-size: 10px;
-line-height: 0px;
 padding: 0;
 }
 
-#speaker {
-clear: both;
-background: url(img/transparentbg.png) repeat;
+h3#speaker {
 padding: 20px 0 15px 20px;
 width: 430px;
+color: #ea4646;
 }
 
-#nav{
-float: right;
-position: relative;
-bottom: -140px;
+#nav {
+position: absolute;
+bottom: 20px;
+right: 0px;
 }
 
 	#nav li {
@@ -180,23 +177,10 @@ bottom: -140px;
 	background: #0c5962;
 	}
 
-
-#about h3{
-clear: both;
-background: url(img/transparentbg.png) repeat;
-padding: 20px 0 15px 20px;
-height: 30px;
-}
+#about { clear:both; }
 
 .first {
 padding-bottom: 0;
-}
-
-#attend h3{
-clear: both;
-background: url(img/transparentbg.png) repeat;
-padding: 20px 0 15px 20px;
-height: 30px;
 }
 
 .spacer {
