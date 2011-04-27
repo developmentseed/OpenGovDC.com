@@ -111,6 +111,13 @@ font-family: 'Pacifico',serif;
 font-size: 36px;
 letter-spacing: 2px;
 color: #12818e;
+position: relative;
+z-index: 2;
+}
+
+#non-fancy {
+position: relative;
+z-index: 1;
 }
 
 #headerinfo {
