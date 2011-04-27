@@ -74,6 +74,14 @@ font-size: 18px;
 padding: 0 0 5px 20px;
 }
 
+h6 {
+font-family: 'BebasNeue', sans-serif;
+color: #1d1d1d;
+font-weight: normal;
+font-size: 20px;
+display: inline;
+}
+
 .header {
 position:relative;
 height:440px;
@@ -367,23 +375,76 @@ padding-bottom: 20px;
 background: #4d4d4d;
 }
 
+#footerleft {
+width: 449px;
+border-right: 1px dashed #fff;
+float: left;
+}
 
+#footerleft p {
+float: left;
+font-family: 'BebasNeue', sans-serif;
+color: #1d1d1d;
+font-size: 20px;
+}
 
+#ds {
+margin: 0 10px 0 15px;
+display:-moz-inline-stack;
+display:inline-block;
+zoom:1;
+*display:inline;
+text-indent: -5000px;
+overflow: hidden;
+background: url(img/ds_gray.png) 0 0 no-repeat;
+height: 28px;
+width: 139px;
+vertical-align: top;
+}
 
+	#ds:hover {
+	background: url(img/ds_white.png) 0 0 no-repeat;
+	}
+	
+#p2 {
+margin: 0 10px;
+display:-moz-inline-stack;
+display:inline-block;
+zoom:1;
+*display:inline;
+text-indent: -5000px;
+overflow: hidden;
+background: url(img/phase2_gray.png) 0 3px no-repeat;
+height: 25px;
+width: 159px;
+vertical-align: top;
+}
 
+	#p2:hover {
+	background: url(img/phase2_white.png) 0 3px no-repeat;
+	}
 
+#footerright {
+float: left;
+}
 
+#footerright p {
+	float: left;
+	font-family: 'BebasNeue', sans-serif;
+	color: #1d1d1d;
+	font-size: 20px;
+	}
 
+	#footerright a {
+	margin-left: 10px;
+	font-family: Arial, helvetica, sans-serif;
+	font-weight: bold;
+	color: #b3b3b3;
+	text-decoration: none;
+	font-size: 16px;
+	vertical-align: top;
+	}
 
-
-
-
-
-
-
-
-
-
-
-
-
+		#footerright a:hover {
+		color: #fff;
+		}
