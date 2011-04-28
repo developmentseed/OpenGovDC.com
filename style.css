@@ -159,12 +159,12 @@ width: 430px;
 color: #ea4646;
 }
 
-h3#speaker a {
+h3#speaker a, h3#speaker a:link, h3#speaker a:visited {
 	color: #ea4646;
 	text-decoration: none;
 	}
 	
-h3#speaker a:hover {
+h3#speaker a:hover, h3#speaker a:active {
 	color: #DB4141;
 	text-decoration: none;
 	}
