@@ -159,6 +159,15 @@ width: 430px;
 color: #ea4646;
 }
 
+h3#speaker a {
+	color: #ea4646;
+	text-decoration: none;
+	}
+
+h3#speaker span.small-caps {
+	font-size: 80%;
+	}
+
 #nav {
 position: absolute;
 bottom: 20px;
