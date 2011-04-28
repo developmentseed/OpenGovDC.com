@@ -163,6 +163,12 @@ h3#speaker a {
 	color: #ea4646;
 	text-decoration: none;
 	}
+	
+h3#speaker a:hover {
+	color: #117C8A;
+	text-decoration: none;
+	}
+
 
 h3#speaker span.small-caps {
 	font-size: 80%;
