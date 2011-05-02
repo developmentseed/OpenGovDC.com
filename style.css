@@ -384,6 +384,7 @@ color: #0b4e56;
 }
 
 #location {
+float: left;
 margin-top: 80px;
 padding: 10px 0 20px 20px;
 color: #fff;
@@ -392,14 +393,22 @@ font-size: 18px;
 line-height: 27px;
 }
 
-#location a {
+#map a {
 color: #0c5962;
 text-decoration: none;
 }
 
-#location a:hover {
+#map a:hover {
 color: #0b4e56;
 text-decoration: none;
+}
+
+#map .wrapper p {
+font-size: 12px;
+color: #fff;
+padding: 10px 20px 0 0;
+margin-top: 80px;
+float: right;
 }
 
 #footer {
