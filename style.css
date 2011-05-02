@@ -364,6 +364,7 @@ background: #13c1d6;
 #map h3 {
 	float: left;
 	color: #fff;
+	padding-bottom: 20px;
 	}
 
 #map .top {
@@ -382,8 +383,23 @@ background: url(img/uparrow.png) 70px 20px no-repeat;
 color: #0b4e56;
 }
 
-#mapgraphic img {
-padding-bottom: 20px;
+#location {
+margin-top: 80px;
+padding: 10px 0 20px 20px;
+color: #fff;
+font-family: Arial, helvetica, sans-serif;
+font-size: 16px;
+line-height: 20px;
+}
+
+#location a {
+color: #0c5962;
+text-decoration: none;
+}
+
+#location a:hover {
+color: #0b4e56;
+text-decoration: none;
 }
 
 #footer {
