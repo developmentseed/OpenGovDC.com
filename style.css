@@ -240,7 +240,7 @@ background: #12818e;
 
 	#schedule p {
 	color: white;
-	font-size: 16px;
+	font-size: 18px;
 	padding: 10px 0px 10px 20px;
 	}
 	
@@ -302,6 +302,19 @@ top: 7px;
 
 .minor {
 height: 60px;
+}
+
+#schedule .authors {
+padding: 10px 0 10px 0;
+}
+
+#schedule .authors li {
+font-size: 12px;
+font-family: Arial;
+color: #fff;
+padding: 0 0 10px 20px;
+border: 0px;
+line-height: 18px;
 }
 
 li#registration{
