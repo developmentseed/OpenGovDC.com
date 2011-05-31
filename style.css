@@ -98,12 +98,18 @@ font:normal 35px/40px 'BebasNeue',sans-serif;
 letter-spacing: 1px;
 color: #fff;
 background: #f84a4a url(img/buyarrow.png) 210px 37px no-repeat;
+line-height: 20px;
 }
 
 	#ticket:hover {
 	background: #db4141 url(img/buyarrow.png) 210px 37px no-repeat;
 	}
 
+#special {
+font-size: 18px;
+color: #f6aeae;
+}
+	
 #intro {
 background: #86f3d2 url(img/header_illo.png) 50% 0 no-repeat;
 }
@@ -260,6 +266,18 @@ background: url(img/uparrow.png) 70px 20px no-repeat;
 color: #0b4e56;
 }
 
+#moderator {
+float: left;
+clear: both;
+padding: 0 0 20px 20px;
+margin-right: 20px;
+font-family: Arial, helvetica, Sans-serif;
+font-size: 16px;
+color: white;
+border-bottom: 1px dashed #0c5962;
+width: 880px;
+}
+
 #eventlist {
 clear: both;
 }
@@ -409,6 +427,7 @@ line-height: 27px;
 #map a {
 color: #0c5962;
 text-decoration: none;
+font-weight: bold;
 }
 
 #map a:hover {
@@ -501,3 +520,34 @@ float: left;
 		#footerright a:hover {
 		color: #fff;
 		}
+		
+#footer2 {
+width: 100%;
+background: #1d1d1d;
+}
+
+#footer2 p {
+background: #1d1d1d;
+float: left;
+font-family: 'BebasNeue', sans-serif;
+color: #b3b3b3;
+font-size: 20px;
+}
+
+#blackmesh {
+margin: 0 10px 0 15px;
+display:-moz-inline-stack;
+display:inline-block;
+zoom:1;
+*display:inline;
+text-indent: -5000px;
+overflow: hidden;
+background: url(img/blackmesh.png) 0 0 no-repeat;
+height: 28px;
+width: 160px;
+vertical-align: top;
+}
+
+#blackmesh:hover {
+	background: url(img/blackmesh.png) 0 -30px no-repeat;
+	}
