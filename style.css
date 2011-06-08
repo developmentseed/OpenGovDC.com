@@ -98,7 +98,7 @@ font:normal 35px/40px 'BebasNeue',sans-serif;
 letter-spacing: 1px;
 color: #fff;
 background: #f84a4a url(img/buyarrow.png) 210px 37px no-repeat;
-line-height: 20px;
+
 }
 
 	#ticket:hover {
@@ -387,6 +387,16 @@ li#happyhour{
 background: url(img/happyhour.png) 20px 50% no-repeat;
 border-bottom: 0px dashed #0c5962;
 }
+
+li#happyhour a {
+	color: white;
+	text-decoration: none;
+}
+
+li#happyhour a:hover {
+	text-decoration: underline;
+}
+
 
 #map {
 background: #13c1d6;
